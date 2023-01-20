@@ -28,7 +28,7 @@ github_username: hmih
 
 # Build settings
 #theme: minima
-remote_theme: THEME-NAME
+remote_theme: clayh53/tufte-jekyll
 plugins:
   - jekyll-feed
 
