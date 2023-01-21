@@ -1,7 +1,9 @@
 AUTHOR = "Hristo Mihaylov"
-SITENAME = "hris.to"
-SITETITLE = "Thoughts"
-SITEURL = ""
+SITENAME = "Thoughts"
+SITEURL = "https://blog.hris.to"
+
+RELATIVE_URLS = False
+DELETE_OUTPUT_DIRECTORY = True
 
 PATH = "content"
 
@@ -16,9 +18,10 @@ PAGE_SAVE_AS = "{slug}/index.html"
 ARTICLE_URL = "{slug}/"
 ARTICLE_SAVE_AS = "{slug}/index.html"
 
-STATIC_PATHS = ["images", "static", "fonts"]
+STATIC_PATHS = ["CNAME", "images", "static", "fonts"]
 
 EXTRA_PATH_METADATA = {
+    "CNAME": {"path": "CNAME"},
     "static/robots.txt": {"path": "robots.txt"},
     "images/favicon.ico": {"path": "favicon.ico"},
 }
