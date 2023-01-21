@@ -1,0 +1,9 @@
+      <ul>
+        <li><a href="{{ SITEURL }}/">Home</a></li>
+        {% if MENUITEMS %}
+        {% for item in MENUITEMS %}
+        <li><a href="{{ SITEURL }}/{{ item.1 }}">{{ item.0 }}</a></li>
+        {% endfor %}
+        {% endif %}
+      </ul>
+

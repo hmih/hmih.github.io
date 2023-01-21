@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for article in articles_page.object_list %}
+    {%   include "partials/article_index.html" %}
+    {% if loop.nextitem is defined %}<hr class="separator{% if loop.index0 > 0 %} extra{% endif %}">{% endif %}
+    {% endfor %}
+{% endblock %}
