@@ -20,6 +20,6 @@ serve:
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 	ghp-import output -b gh-pages
-	git push git@github.hmih:hmih/hmih.github.io gh-pages:main
+	git push git@github.hmih:hmih/hmih.github.io main:gh-pages
 
 .PHONY: html help clean serve publish
