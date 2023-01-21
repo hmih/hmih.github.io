@@ -22,4 +22,4 @@ publish:
 	ghp-import output -b gh-pages
 	git push -f git@github.hmih:hmih/hmih.github.io gh-pages:gh-pages
 
-.PHONY: html help clean serve publish
+.PHONY: html clean serve publish
