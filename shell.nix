@@ -9,8 +9,6 @@ pkgs.mkShellNoCC {
 
     python3
     python3Packages.pelican
-    python3Packages.markdown
-    python3Packages.webassets
-    yuicompressor
+    ghp-import
   ];
 }
