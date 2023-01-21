@@ -8,9 +8,9 @@ Technical
 ---------
 
 I like minimal themes. I like static websites. I like the tufte layout. So, I
-cloned [1], made modifications to removed some elements I will not use.
+cloned [1], removed 90% of it, et voilà.
 
-How does code render?
+Now on to the last chore, how does it render code?
 
 .. code-block:: python3
 
