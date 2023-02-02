@@ -7,7 +7,7 @@ hello, world!
 Technical
 ---------
 
-I like minimal themes. I like static websites. I like the tufte layout. So, I
+I like minimal themes. I like static websites. I like the tufte layout. So I
 cloned [1], removed 90% of it, et voilà.
 
 Now on to the last chore, how does it render code?
