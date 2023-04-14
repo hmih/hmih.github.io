@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2023-04-14T10:06:57.398Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="l7FUVicqCW3C_USKQLFV" version="21.1.7" type="device">
+  <diagram name="Page-1" id="HbawYLVIFzqTVmCamukE">
+    <mxGraphModel dx="794" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfu2ecOjnfDti5b60ZT7-1" target="mfu2ecOjnfDti5b60ZT7-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mfu2ecOjnfDti5b60ZT7-1" target="mfu2ecOjnfDti5b60ZT7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-1" value="Facade" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfu2ecOjnfDti5b60ZT7-2" target="mfu2ecOjnfDti5b60ZT7-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mfu2ecOjnfDti5b60ZT7-2" target="mfu2ecOjnfDti5b60ZT7-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-2" value="Postgrest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-12" value="REST" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;bottom=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-14" value="Relational Schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="320" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mfu2ecOjnfDti5b60ZT7-15" value="DTO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="80" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

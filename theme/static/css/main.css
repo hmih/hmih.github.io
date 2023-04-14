@@ -195,7 +195,7 @@ footer p {
 main {
     padding: 0 4rem 0 6rem;
     max-width: 1000px;
-    width: 70%;
+    width: 50%;
 }
 
 article > header > p {
@@ -648,14 +648,12 @@ blockquote footer {
 }
 
 .section > p, .section > footer, .section > table, .section > hr {
-    width: 60%;
+    width: 100%;
 }
 
 /* 54 + 6 == 60, to be the same width as paragraph */
 .section > ol, .section > ul {
-    width: 54%;
-    -webkit-padding-start: 6%;
-    -moz-padding-start: 6%;
+    width: 100%;
 }
 
 li:not(:first-child) {
