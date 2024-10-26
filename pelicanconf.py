@@ -2,7 +2,7 @@ AUTHOR = "Hristo Mihaylov"
 SITENAME = "Thoughts"
 SITEURL = "https://blog.hris.to"
 
-RELATIVE_URLS = False
+RELATIVE_URLS = True
 DELETE_OUTPUT_DIRECTORY = True
 
 PATH = "content"
@@ -13,8 +13,8 @@ DEFAULT_DATE_FORMAT = "%B %d, %Y"
 DEFAULT_LANG = "en"
 THEME = "theme"
 
-ARTICLE_URL = "{slug}/"
-ARTICLE_SAVE_AS = "{slug}/index.html"
+ARTICLE_URL = ARTICLE_SAVE_AS = PAGE_URL = PAGE_SAVE_AS = "{slug}.html"
+
 
 ### disabled https://docs.getpelican.com/en/stable/settings.html#url-settings
 DRAFT_URL = ""
