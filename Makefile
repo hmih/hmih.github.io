@@ -18,7 +18,7 @@ serve:
 # https://docs.getpelican.com/en/latest/tips.html#user-pages
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	git branch -D gh-pages
+	#git branch -D gh-pages
 	ghp-import output -b gh-pages
 	git push -f git@github.hmih:hmih/hmih.github.io gh-pages:gh-pages
 

@@ -1,6 +1,6 @@
 AUTHOR = "Hristo Mihaylov"
 SITENAME = "Thoughts"
-SITEURL = "https://blog.hris.to"
+SITEURL = "https://hmih.github.io"
 
 RELATIVE_URLS = True
 DELETE_OUTPUT_DIRECTORY = True
