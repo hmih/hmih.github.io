@@ -194,8 +194,7 @@ footer p {
 
 main {
     padding: 0 4rem 0 6rem;
-    max-width: 1000px;
-    width: 50%;
+    width: 60%;
 }
 
 article > header > p {
@@ -203,9 +202,15 @@ article > header > p {
     font-size: 1rem;
 }
 
+.align-center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 /* aside + nav-bar = asidebar! */
 #asidebar {
-    padding: 8rem 0 0 4rem;
+    padding: 8rem 0 0 0;
 }
 
 #asidebar #logo {
@@ -551,9 +556,6 @@ hr {
 }
 hr.separator {
     margin: 0;
-}
-hr.separator.extra {
-    margin: 4rem 0;
 }
 p.subtitle {
     font-style: italic;
