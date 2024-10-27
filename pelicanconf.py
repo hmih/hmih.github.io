@@ -62,7 +62,6 @@ TRANSLATION_FEED_ATOM_URL = ""
 STATIC_PATHS = ["images", "static", "fonts"]
 
 EXTRA_PATH_METADATA = {
-    "static/CNAME": {"path": "CNAME"},
     "static/robots.txt": {"path": "robots.txt"},
     "images/favicon.ico": {"path": "favicon.ico"},
 }

@@ -90,6 +90,6 @@ has several plugin which allow writing stored procedures in your language of
 choice.
 
 What about versioning? How about unit testing? Well, I never wrote any
-¯\\_(ツ)_/¯ Even stimulants fail to capture the adrenaline rush of executing
-destructive queries on production. You think to yourself: "Did I put this in a
+¯\\_(ツ)_/¯ Nothing captures the adrenaline rush of executing destructive
+queries on production. You think to yourself: "Did I put this in a
 transaction?". Those were the days.
