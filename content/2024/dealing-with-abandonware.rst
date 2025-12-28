@@ -15,6 +15,7 @@ filling in the many types of tiles to create a complete inventory.
 
 .. figure:: /images/tile-creator-pro.jpg
    :height: 30em
+   :alt: title creator pro welcome screen
 
 The woes began in 2021 when my dad decided to upgrade the family desktop
 computer. Before the upgrade he asked me if there will be a problem with the
@@ -155,6 +156,7 @@ accumulated the **new** magic number. I got super excited. I looked more
 closely into the related calls and found **it**:
 
 .. figure:: /images/tile-creator-pro-magic-number-code.png
+   :alt: tile creator pro magic number code input field
 
 My mind was instantly flooded with questions: Will changing this code brick the
 entire program? What if it is not the only place where the magic number is
@@ -164,16 +166,19 @@ that it is checked against? What if there is self-modifying code and the real
 magic number is already stored at some address in the binary?
 
 .. figure:: /images/tile-creator-pro-indiana-johnes.jpeg
+   :alt: indiana jones looking at an artifact that's boobie trapped
 
 I silenced all those questions and decided to try and hardcode the result to
 the magic number I need:
 
 .. figure:: /images/tile-creator-pro-fix.png
+   :alt: tcp crack location
 
 I re-ran the program in the debugger and saw my old magic number! I used the
 serial number I had and it worked!
 
 .. figure:: /images/tile-creator-pro-registered.png
+   :alt: tcp success screen
 
 Success!
 
