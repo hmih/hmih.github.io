@@ -18,10 +18,7 @@ serve:
 # https://docs.getpelican.com/en/latest/tips.html#user-pages
 publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-	ghp-import $(OUTPUTDIR) -b gh-pages
-	git fetch origin
-	@if [ -z "$$(git branch --list gh-pages)" ]; then git checkout -b gh-pages origin/gh-pages; else git checkout gh-pages; fi
-	git rebase origin/gh-pages
-	git push origin gh-pages:gh-pages
+	ghp-import output -b gh-pages
+	git push -f git@github.com:hmih/hmih.github.io gh-pages:gh-pages
 
 .PHONY: html clean serve publish

@@ -59,11 +59,12 @@ TRANSLATION_FEED_ATOM = ""
 TRANSLATION_FEED_ATOM_URL = ""
 ###
 
-STATIC_PATHS = ["images", "static", "fonts"]
+STATIC_PATHS = ["images", "static", "fonts", "extra/CNAME"]
 
 EXTRA_PATH_METADATA = {
-    "static/robots.txt": {"path": "robots.txt"},
+    "extra/CNAME": {"path": "CNAME"},
     "images/favicon.ico": {"path": "favicon.ico"},
+    "static/robots.txt": {"path": "robots.txt"},
 }
 
 SOCIAL = (("GitHub", "https://github.com/hmih"),)
