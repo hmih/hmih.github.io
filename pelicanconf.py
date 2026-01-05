@@ -67,6 +67,6 @@ EXTRA_PATH_METADATA = {
     "static/robots.txt": {"path": "robots.txt"},
 }
 
-SOCIAL = (("GitHub", "https://github.com/hmih"),)
+SOCIAL = (("GitHub", "https://github.com/hmih"), ("Twitter", "https://x.com/hrimih"))
 
 SITEMETA = "All opinions are those of your employer"
